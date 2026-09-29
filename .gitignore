@@ -1,0 +1,15 @@
+# 运行示例时生成的本地备份（不该进仓库）
+examples/demo_backup/
+examples/**/demo_backup/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 输出与临时文件
+_out/
+*.log
+.DS_Store
+Thumbs.db
